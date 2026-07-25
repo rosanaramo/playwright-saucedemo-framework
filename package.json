@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test tests/",
-    "showreport": "npx playwright show-report"
+    "showreport": "npx playwright show-report",
+    "smoke": "npx playwright test tests/ --grep smoke",
+    "invert-smoke": "npx playwright test tests/ --grep-invert smoke",
+    "ui-mode": "npx playwright test tests/ --ui"
 
   },
   "keywords": [],
