@@ -9,7 +9,6 @@
     "smoke": "npx playwright test tests/ --grep smoke",
     "invert-smoke": "npx playwright test tests/ --grep-invert smoke",
     "ui-mode": "npx playwright test tests/ --ui"
-
   },
   "keywords": [],
   "author": "",
